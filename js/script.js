@@ -1,7 +1,7 @@
 const html = document.documentElement
 const img = document.querySelector('img')
 
-toggleMode = () => {
+const toggleMode = () => {
     html.classList.toggle('light')
 
     if (html.classList.contains("light")) {
